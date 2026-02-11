@@ -16,7 +16,7 @@ net_type=$(nmcli -t -f DEVICE,TYPE,STATE device status |
 	sed 's/^[[:space:]]*//; s/[[:space:]]*$//' |
 	head -n1)
 
-[[ -z "$net_type" ]] && net_type="default"
+[[ -z "$net_type" ]] && net_type="ethernet"
 
 # Detect all monitors
 monitors=$(hyprctl monitors -j | jq -r '.[].name')
