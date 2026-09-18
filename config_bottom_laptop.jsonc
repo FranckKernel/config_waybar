@@ -1,7 +1,7 @@
 {
     "position": "bottom",
     "modules-left": ["network#internet", "network#speed"],
-    "modules-center": ["custom/kbd_backlight", "backlight"],
+    "modules-center": ["custom/kbd_backlight", "backlight", "tray"],
     "modules-right": [
         "custom/gpu",
         "custom/gpu_temp_laptop",
