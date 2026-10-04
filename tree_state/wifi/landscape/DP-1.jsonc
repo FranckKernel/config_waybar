@@ -30,7 +30,7 @@
 
     "network#internet": {
         "type": "network",
-        "interface": "enp14s0",
+        "interface": "wlan0",
         "format-ethernet": "<span size='13000' foreground='#f4bc1c'>󰀂 </span> {ipaddr}/{cidr}",
         "format-linked": "<span size='13000' foreground='#f4bc1c'>󰌙 </span> No IP",
         "format-disconnected": "<span size='13000' foreground='#f4bc1c'> </span> Disconnected",
@@ -48,14 +48,14 @@
 
     "network#speed": {
         "type": "network",
-        "interface": "enp14s0",
+        "interface": "wlan0",
         "format": "<span foreground='#00ff00'> {bandwidthUpBits} </span> <span foreground='#ff4444'> {bandwidthDownBits}</span>",
         "tooltip": false,
         "interval": 1,
     },
 
     "network": {
-        "interface": "enp14s0",
+        "interface": "wlan0",
         "family": "ipv4",
         "format": "{ipaddr}",
         "format-ethernet": "󰀂  {ipaddr}/{cidr}",
