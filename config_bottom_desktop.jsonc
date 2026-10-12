@@ -123,7 +123,7 @@
     },
 
     "custom/mpd_volume": {
-        "exec": "/home/francois/.config/polybar.old/tmux/volume.sh",
+        "exec": "/home/francois/.config/polybar/tmux/volume.sh",
         "interval": 1,
         "format": "<span foreground='#f57dad'> MPC  : </span> {}",
         "tooltip": false,
